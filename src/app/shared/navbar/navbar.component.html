@@ -1,0 +1,72 @@
+<nav class="bg-white border-gray-200 border-b-2 py-2">
+  <div
+    class="flex flex-wrap items-center justify-between max-w-screen-xl px-4 mx-auto"
+  >
+    <a href="#" class="flex items-center gap-1">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="40"
+        height="40"
+        viewBox="0 0 32 32"
+        fill="none"
+      >
+        <circle cx="16" cy="16" r="10" stroke="url(#pulse)" stroke-width="2" />
+        <path
+          d="M6 16a10 10 0 0 1 20 0"
+          stroke="url(#pulse)"
+          stroke-width="2"
+          stroke-linecap="round"
+        />
+        <circle cx="16" cy="16" r="2" fill="url(#pulse)" />
+        <defs>
+          <linearGradient
+            id="pulse"
+            x1="0"
+            y1="0"
+            x2="32"
+            y2="32"
+            gradientUnits="userSpaceOnUse"
+          >
+            <stop stop-color="#6a11cb" />
+            <stop offset="1" stop-color="#2575fc" />
+          </linearGradient>
+        </defs>
+      </svg>
+
+      <span
+        class="self-center text-xl font-semibold whitespace-nowrap text-gray-900"
+        >Stellar Fitness</span
+      >
+    </a>
+    <button
+      class="text-gray-500 hover:text-gray-600 lg:hidden"
+      id="open-sidebar"
+    >
+      <svg
+        class="w-6 h-6"
+        fill="none"
+        stroke="currentColor"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          d="M4 6h16M4 12h16M4 18h16"
+        ></path>
+      </svg>
+    </button>
+    <div
+      class="w-6/12 justify-end lg:flex gap-7 text-gray-700 font-medium hidden"
+    >
+      <a href="#">Home</a>
+      <a href="#">Book Now</a>
+      <a href="#">Team</a>
+      <a href="#">Classes</a>
+      <a href="#">Contact</a>
+    </div>
+  </div>
+</nav>
+
+<script src="https://unpkg.com/flowbite@1.4.1/dist/flowbite.js"></script>

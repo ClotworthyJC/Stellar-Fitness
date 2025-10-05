@@ -1,0 +1,9 @@
+<div [class.bg-gray-50]="cardType == '1'">
+  <div class="w-full py-7 px-3">
+    <span class="text-4xl mb-3">{{ cardIcon }}</span
+    ><br />
+    <span class="font-medium text-2xl">{{ cardTitle }}</span>
+    <hr class="w-2/5 my-3 text-purple-800 border-2" />
+    <span class="text-gray-600"><ng-content /></span>
+  </div>
+</div>
